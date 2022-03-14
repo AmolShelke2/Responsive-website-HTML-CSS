@@ -1,5 +1,5 @@
 /* google fonts  */
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 /* Global styles  */
@@ -10,6 +10,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
 /* ul  */
 
 ul {
@@ -17,12 +21,14 @@ ul {
 }
 
 .active  {
-    text-decoration: underline;
-    color: #fc036b;
     font-weight: bold;
 }
 
 /* Navbar */
+.logo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
 
 .navbar {
     position: absolute;
@@ -38,6 +44,7 @@ ul {
 .nav-links {
     display: flex;
     align-items: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .nav-links li  {
@@ -94,6 +101,7 @@ a {
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    letter-spacing: .5px;
 }
 
 .btn:hover {
@@ -138,10 +146,12 @@ a {
 
     .mobile-menu {
         margin-top: 0px;
-        border-bottom-right-radius: 30%;
+        border-bottom-right-radius: 20px;
     }
 
     .nav-links li {
         margin: 30px auto;
+        font-size: 25px;
+        font-weight: 300;
     }
 }

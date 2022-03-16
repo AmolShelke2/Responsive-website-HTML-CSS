@@ -13,6 +13,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
+    overflow-x: hidden;
 }
 /* ul  */
 
@@ -131,6 +132,37 @@ section {
     color: #49497e;
 }
 
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row .col {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.events .row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #49497e;
+    margin: 20px auto;
+}
+
+p {
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+
+.events .btn {
+    margin-top: 30px;
+}
 /* Mobile device */
 
 @media screen and (max-width: 850px) {

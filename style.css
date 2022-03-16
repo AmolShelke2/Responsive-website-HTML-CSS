@@ -163,6 +163,13 @@ p {
 .events .btn {
     margin-top: 30px;
 }
+
+/* Explore */
+.explore {
+    
+}
+
+
 /* Mobile device */
 
 @media screen and (max-width: 850px) {

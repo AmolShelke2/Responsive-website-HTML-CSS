@@ -144,10 +144,6 @@ section {
     justify-content: space-between;
 }
 
-.row .col img {
-    width: 80%;
-}
-
 .row .col {
    display: flex;
    flex-direction: column;

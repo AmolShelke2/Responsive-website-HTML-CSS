@@ -245,6 +245,21 @@ p {
     margin: 10px;
 }
 
+/* footer */
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #484872;
+    text-align: center;
+}
+
+.footer p {
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
 
 /* Mobile device */
 

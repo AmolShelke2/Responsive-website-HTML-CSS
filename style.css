@@ -140,8 +140,12 @@ section {
 .row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
+}
+
+.row .col img {
+    width: 80%;
 }
 
 .row .col {
@@ -335,4 +339,14 @@ p {
     .footer {
         padding: 10px;
     }
+}
+
+/* Transition */
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
